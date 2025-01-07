@@ -1,5 +1,5 @@
 const sqlite3 = require("sqlite3").verbose();
-const filepath = "server/db/flashcards.sqlite";
+const filepath = "db/flashcards.sqlite";
 
 function createDbConnection() {
   const db = new sqlite3.Database(filepath, (error) => {
