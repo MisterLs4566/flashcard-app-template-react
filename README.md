@@ -19,4 +19,6 @@ Now you can open the url:
 localhost:3000
 ```
 
-Have fun!
+# RM
+I used the following relational model for the sqlite db:
+![image](mockups/flashcard-template-react.drawio.png)
