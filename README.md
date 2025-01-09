@@ -24,7 +24,7 @@ I used the following entity-relationship diagram for the modelling the database:
 
 ![image](mockups/flashcard-template-react.drawio.png)
 
-Out of this, the following relational model can be developed:
+Out of this, the following relational model ist developed:
 - flashcard_list( <ins>flashcard_list_id</ins>, title )
 - flashcard( <ins>flashcard_id</ins>, key_title, key_body, value_title, value_body, ↑flashcard_list )
 # UI Mockup
