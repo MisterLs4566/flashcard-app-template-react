@@ -22,3 +22,7 @@ localhost:3000
 # RM
 I used the following relational model for the sqlite db:
 ![image](mockups/flashcard-template-react.drawio.png)
+
+# UI Mockup
+The following image shows the first UI mockup for the web app.
+![image](mockups/UI-mockup-flashcards.drawio.png)
