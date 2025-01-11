@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
-import ButtonLearned from '../components/Button/button_learned';
-import ButtonNotLearned from '../components/Button/button_not_learned';
+import ButtonNewList from '../components/Button/button_new_list';
 
 function App() {
   const [data, setData] = useState([]);
@@ -16,9 +15,8 @@ function App() {
   }, []);
 
   return (
-    <><h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1><div>
+    <>
+      <div className="grid place-items-center content-start h-screen text-center">
         <h1>My Flashcard Lists</h1>
         {data && data.length > 0 ? (
           <><ul>
@@ -26,8 +24,7 @@ function App() {
               <li key={item.flashcard_list_id}>{item.title}</li>
             ))}
           </ul>
-          <ButtonLearned/>
-          <ButtonNotLearned/>
+          <ButtonNewList className="mt-32"></ButtonNewList>
         </>
         ) : (
           /* From Uiverse.io by TamaniPhiri */ 
