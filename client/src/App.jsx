@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import ButtonNewList from '../components/Button/button_new_list';
+import SimplePopUp from '../components/pop_up/new_list_pop_up.jsx';
 
 function App() {
   const [data, setData] = useState([]);
@@ -24,7 +24,7 @@ function App() {
               <li key={item.flashcard_list_id}>{item.title}</li>
             ))}
           </ul>
-          <ButtonNewList className="mt-32"></ButtonNewList>
+          <SimplePopUp></SimplePopUp>
         </>
         ) : (
           /* From Uiverse.io by TamaniPhiri */ 
